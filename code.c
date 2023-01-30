@@ -1,6 +1,10 @@
 #include <stdio.h>
 
 int main(void) {
-  printf("%d", 100);
+  int i, j = 0;
+  for (i = 0; i < 10; i++) {
+    j++;
+  }
+  printf("%d", j);
   return 0;
 }
