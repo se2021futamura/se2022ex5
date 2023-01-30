@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main(void) {
-  int i, j = 0;
-  for (i = 0; i < 10; i++) {
+  int i = 0, j = 0;
+  while (i < 10) {
     j++;
   }
   printf("%d", j);
